@@ -3,10 +3,10 @@
 Project.configure do |project|
 
   # Send email notifications about broken and fixed builds to email1@your.site, email2@your.site (default: send to nobody)
-  project.email_notifier.emails = ['ben.otto2@gmail.com']
+  # project.email_notifier.emails = ['ben.otto2@gmail.com']
 
   # Set email 'from' field to john@doe.com:
-  project.email_notifier.from = 'ben.otto2@gmail.com'
+  # project.email_notifier.from = 'ben.otto2@gmail.com'
 
   # Build the project by invoking rake task 'custom'
   # project.rake_task = 'custom'
