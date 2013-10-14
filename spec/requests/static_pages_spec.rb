@@ -12,7 +12,7 @@ describe "Static pages" do
     end
 
     it "should have the base title" do
-      visit '/static_pages/home766'
+      visit '/static_pages/home'
       expect(page).to have_title("#{base_title}")
     end
 
