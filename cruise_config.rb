@@ -20,7 +20,7 @@ Project.configure do |project|
   project.scheduler.polling_interval = 1.minutes
 
   # Whether to always build at each polling
-  project.scheduler.always_build = true # to build no matter whether there are source control changes or not
+  project.scheduler.always_build = false # to build no matter whether there are source control changes or not
   # project.scheduler.always_build = false # to build only when there are source control changes
    
   # Set a regular build interval. A build will always be started at each interval,
